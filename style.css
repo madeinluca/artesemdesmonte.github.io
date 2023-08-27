@@ -6,9 +6,10 @@ h1 {
     color:darkred;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: clamp(16px, 40vw, 80px);
+    font-size: 15vw;
     padding-left: 3vw;
     padding-right: 3vw;
+    line-height: 90%;
 
 }
 
@@ -16,7 +17,7 @@ h2 {
     color:whitesmoke;
     text-align: center;
     font-family: roboto;
-    font-size: 50px;
+    font-size: 5vw;
 
 }
 
@@ -78,6 +79,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: 0;
     overflow: hidden;
     background-color: #333;
 }
@@ -90,7 +92,6 @@ li {
 
 li a {
     display: block;
-    padding: 8px;
     color: white;
     text-align: center;
     padding: 14px 16px;
